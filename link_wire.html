@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Page2</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" type="text/css" href="css/styleSofa.css">
+</head>
+	
+
+<body>
+	<ul> 
+    <li><a href="index.html">Home</a></li>
+		<li><a class= "active" href="link_wire.html">Tryon Idea</a> </li>
+    <li><a href="link_about.html">Add To Cart Design</a> </li>
+    
+    
+	
+	</ul>
+		
+	<header>
+	<div class="couch">
+  <svg id="js-couch" class="couch__overlay" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" width="626" height="1084">
+  <defs>
+    <path d="M153 791 L212 770 L242 774 L271 770 L352 790 L321 837 L286 860 L205 855 L178 826Z" id="a" />
+  </defs>
+  <use xlink:href="#a"/>
+</svg>
+
+  <img class="couch__img" src="img/face.png" alt="">
+</div>
+
+<div class="colours">
+  <div class="colours__inputs">
+    <input id="js-color-1" class="jscolor {onFineChange:'updateCouch(this)'}" value="FFD4EB">
+    <input id="js-color-2" class="jscolor {onFineChange:'updateBackgroundD(this)'}" value="24243e">
+    <input id="js-color-3" class="jscolor {onFineChange:'updateBackgroundL(this)'}" value="302b63">
+    <button class="gen-random" onclick="generateRandom()">Generate random</button>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.0.4/jscolor.js'></script>
+<script  src="scriptSofa.js"></script>
+
+	</header>
+</body>
+</html>
